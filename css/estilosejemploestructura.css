@@ -1,0 +1,89 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+    font-family: 'franklin_gothic_fsdemi';
+    src: url('../font/franklingothic-demi.ttf') format('woff2'),
+         url('../font/franklingothic-demi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'franklin_gothic_fsbook';
+    src: url('../font/franklingothic-book.ttf') format('woff2'),
+         url('../font/franklingothic-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+	{
+		font-family: "franklin_gothic_fsbook";
+		background: #005883;
+		color: #FFFFFF;
+		font-size: 2em;
+	}
+
+h1 {
+	font-family: "franklin_gothic_fsdemi";
+	color:  #F0B429;
+	margin: 0.25em auto;
+	text-align: center;
+	text-shadow: 2px 2px 5px rgba(255,255,255,0.5);
+
+}
+
+h2, h3 {
+	font-family: "franklin_gothic_fsdemi";
+	color: #F0B429;
+	margin: 0.25em auto;
+	text-align: center;
+	text-shadow: 2px 2px 5px rgba(255,255,255,0.5);
+
+}
+
+header, nav, footer{
+	background: #1E6381;
+	border-radius: 0.5em;
+	margin: 0.5em auto;
+	max-width: 960px;
+	padding: 0.25em;
+	text-align: center;
+}
+
+section#contenedor{
+
+	background: url("../img/fondounad.png");
+	background-repeat: no-repeat;
+	background-size: 1300px 800px;
+	margin: auto;
+	max-width: 1000px;
+	max-height: 800px;
+	position: relative;
+	left: 20px;
+	
+	
+	
+}
+
+section#principal{
+	font-family: "franklin_gothic_fsbook";
+	font-size: 0.58em;
+	max-width: 500px;
+	
+	border-radius: 0.2em;	
+	min-height: 780px;
+	min-width: 570px;
+	
+	position: relative;
+	top: 2px;
+	left: 400px;
+}
+
+
+
