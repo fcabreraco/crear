@@ -1,6 +1,9 @@
 *{
 	padding: 0;
 	margin: 0;
+
+}
+
 }
 @font-face {
     font-family: 'franklin_gothic_fsdemi';
@@ -19,14 +22,15 @@
     font-style: normal;
 
 }
+@font-face{
 
-body
-	{
-		font-family: "franklin_gothic_fsbook";
-		background: #005883;
-		color: #FFFFFF;
-		font-size: 2em;
-	}
+}
+body{
+	font-family: Helvetica,Times New Roman;
+	background: #212121;
+	color: #FFFFFF;
+	font-size: 1em; 
+}
 
 h1	{
 	color: #f60;
