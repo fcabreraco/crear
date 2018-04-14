@@ -63,7 +63,7 @@ h2,h3{
 	text-align: center;
 	text-shadow: 2px 2px 5px rgba(255,255,255,0.5);
 	}
-section#primero{
+ 	.primero{
 	margin: 0.5em auto;
 	max-width: 960px;
 	padding: 0;
@@ -77,7 +77,7 @@ section#primero{
 	position: relative;
 	
 }
-section#segundo,aside{
+ 	.segundo,aside{
 	font-family: "franklin_gothic_fsbook";
 	font-size: 0.58em;
 	left: 200px;
