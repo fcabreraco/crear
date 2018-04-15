@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html  lang="es">
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>ORDENAMIENTO COMBINACION O MEZCLA</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/estiloslecturas.css">
+
+</head>
+
+<body>
+
+	<h1>TECNOLOGIA DESARROLLO DE SOFTWARE</h1>
+	<h2>LOGICA DE PROGRAMACION</h2>
+	
+	<header>
+
+		<div id="menu">
+		<ul class="lista">
+			<li><a href="">Inicio</a></li>
+			<li><a href="introduccion.html">Introduccion</a></li>
+			<li><a>Metodos Ordenamiento datos</a>
+				<ul>
+					<li><a href="orseleccion.html">M. O. Seleccion</a></li>
+					<li><a href="orinsercion.html">M. O. Insercion</a></li>
+					<li><a href="ormezcla.html">M. O. Mezcla  </a></li>
+				</ul>
+			</li>
+			<li><a href="">Actividades</a></li>
+			<li><a href="">Tutoriales</a></li>
+			<li><a href="">Contactos</a></li>
+		</ul>
+		</div>
+
+	</header>
+
+	<nav>
+		
+		<h3>Metodo de ordenamiento Combinacion o Mezcla</h3>
+
+
+	</nav>
+
+	
+
+	<section id="contmezcla">
+		<section id=principalmezcla>
+
+		<div><p>Este método se conoce de varias formas. Es llamado burbuja, mezcla, combinación o intercalación.</p></div>
+
+		<br>	
+		<div><p>Se puede desarrollar de tal forma que se ejecute en dos formas diferentes.</p></div>
+
+		<br>
+		<div><p>•	Moviendo los valores más pequeños hacia la izquierda del arreglo</p></div>
+		<div><p>•	Moviendo los valores más grandes a la derecha del arreglo</p></div>
+
+		<br>	
+		<div><p>Consiste en dividir el arreglo en 2 sub grupos de igual tamaño, luego ordena cada arreglo por separado y después los une o combina en un grupo más grande. Si los elementos suman un número impar el sistema divide los sub grupos de tal forma que uno quede más grande que el otro.</p></div>
+
+		<br>
+		<div><p>Ejemplo</p></div>
+	
+		<center><div><p>24&nbsp;&nbsp;&nbsp;36&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;22&nbsp;&nbsp;&nbsp;67&nbsp;&nbsp;&nbsp;61&nbsp;&nbsp;&nbsp;83&nbsp;&nbsp;&nbsp;29&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;53</p></div></center>
+
+		<br>
+		<div><p>Supongamos que el algoritmo ya ha dividido en 2 sub grupos ordenados  el arreglo principal.</p></div>
+
+		<br>
+		<center><div><p>Arreglo A</p></div></center>
+
+		<center><div><p>2&nbsp;&nbsp;&nbsp;22&nbsp;&nbsp;&nbsp;24&nbsp;&nbsp;&nbsp;36&nbsp;&nbsp;&nbsp;67</p></div></center>
+
+
+		<br>
+		<center><div><p>Arreglo B</p></div></center>
+
+		<center><div><p>6&nbsp;&nbsp;&nbsp;29&nbsp;&nbsp;&nbsp;53&nbsp;&nbsp;&nbsp;61&nbsp;&nbsp;&nbsp;83</p></div></center>
+
+
+		<br>
+		<div><p>Este método combina los arreglos A y B en uno de mayor tamaño y ordenado.</p></div>
+
+		<br>
+		<div><p>El valor más pequeño de A es 2 y el más de pequeño de B es 6. Para alojar el primer elemento en la posición cero del arreglo mayor el sistema compara cuál de los dos es el más pequeño. En este caso como 2 es menor que 6 entonces e primer elemento de la posición cero en el nuevo arreglo es 2.</p></div>
+
+		<br>
+		<div><p>Luego el programa compara el segundo valor de A que es 22 con 6 que es el primer elemento de B. Como el valor 6 es más pequeño, entonces este se aloja  en el segundo elemento del arreglo mayor. El programa sigue comparando el valor 24 del arreglo A con 29 del arreglo B donde 24 pasa a ser el tercer elemento del arreglo mayor ya si prosigue sucesivamente.</p></div>
+
+		
+		</section>	
+
+
+	</section>
+
+	<footer>
+
+		<section class="insta">
+			
+		</section>	
+
+		<section class="twiter">
+			
+		</section>	
+
+		<section class="facebook">
+		
+		</section>	
+
+		<section class="pie">
+			
+		<div><p>UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA</p></div>
+		<div><p>Diseño de Paginas Web</p></div>
+		<div><p>Grupo  301122_42</p></div>
+		<div><p>2018</p></div>
+		<div><p>Todos los derechos reservados</p></div>
+
+
+		</section>		
+
+		<section class="ima">
+			
+		
+
+
+		</section>	
+		
+
+		<br>
+		<div class="posi"></div>
+
+		
+	</footer>
+
+
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/modernizr-custom.js"></script>
+<script src="prefixfree.js"></script>
+</body>
+
+</html>

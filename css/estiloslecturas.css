@@ -1,0 +1,369 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+    font-family: 'franklin_gothic_fsdemi';
+    src: url('../font/franklingothic-demi.ttf') format('woff2'),
+         url('../font/franklingothic-demi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'franklin_gothic_fsbook';
+    src: url('../font/franklingothic-book.ttf') format('woff2'),
+         url('../font/franklingothic-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+	{
+		font-family: "franklin_gothic_fsbook";
+		background: #005883;
+		color: #FFFFFF;
+		font-size: 2em;
+	}
+
+h1 {
+	font-family: "franklin_gothic_fsdemi";
+	color:  #F0B429;
+	margin: 0.25em auto;
+	text-align: center;
+	text-shadow: 2px 2px 5px rgba(255,255,255,0.5);
+
+}
+
+h2, h3 {
+	font-family: "franklin_gothic_fsdemi";
+	color: #F0B429;
+	margin: 0.25em auto;
+	text-align: center;
+	text-shadow: 2px 2px 5px rgba(255,255,255,0.5);
+
+}
+
+nav{
+	background: #1E6381;
+	border-radius: 0.5em;
+	margin: 0.5em auto;
+	max-width: 960px;
+	padding: 0.25em;
+	text-align: center;
+
+}
+
+footer {
+	
+	border-radius: 0.5em;
+	margin: 0.5em auto;
+	max-width: 960px;
+	padding: 0.25em;
+	text-align: center;
+
+}
+
+.twiter{
+	position: relative;
+	top: 20px;
+	width: 50px;
+	height: 50px;
+	float: left;
+	background: url("../img/twi.png");
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+	border-radius: 50%;
+}
+
+.insta{
+	position: relative;
+	top: 20px;
+	width: 50px;
+	height: 50px;
+	float: left;
+	background: url("../img/insta.png");
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+	border-radius: 50%;
+}
+
+.facebook{
+	position: relative;
+	top: 20px;
+	width: 50px;
+	height: 50px;
+	float: left;
+	background: url("../img/facebook.png");
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+	border-radius: 50%;
+}
+
+.pie{
+	float: left;
+	width: 700px;
+	height: 100px;
+	
+	font-family: "franklin_gothic_fsbook";
+	font-size: 0.4em;
+}
+
+.ima{
+
+	width: 100px;
+	height: 100px;
+	float: left;
+	background: url("../img/logo.jpg");
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	border-radius: 50%;
+}
+.posi{
+	position: relative;
+	top: 70px;
+	height: 10px;
+}
+
+header{
+	
+	border-radius: 0.5em;
+	margin: 0.5em auto;
+	max-width: 1000px;
+	padding: 0.25em;
+	text-align: center;
+	min-height: 50px;
+}
+
+
+section#contmezcla{
+
+	background: url("../img/fondounad.png");
+	background-repeat: no-repeat;
+	background-size: 1200px 800px;
+	margin: auto;
+	max-width: 990px;
+	max-height: 800px;
+	position: relative;
+	
+	border-radius: 0.2em;
+	
+	
+}
+
+section#principalmezcla{
+	font-family: "franklin_gothic_fsbook";
+	font-size: 0.5em;
+	max-width: 500px;
+	
+	border-radius: 0.2em;	
+	min-height: 780px;
+	min-width: 570px;
+	
+	position: relative;
+	top: 2px;
+	left: 400px;
+}
+
+
+
+section#continsercion{
+
+	background: url("../img/fondounad.png");
+	background-repeat: no-repeat;
+	background-size: 1440px 960px;
+	margin: auto;
+	max-width: 990px;
+	max-height: 90000px;
+	position: relative;
+	
+	border-radius: 0.2em;
+	
+	
+}
+
+section#principalinser{
+	font-family: "franklin_gothic_fsbook";
+	font-size: 0.4em;
+	max-width: 500px;
+	
+	border-radius: 0.2em;	
+	min-height: 940px;
+	min-width: 580px;
+	
+	position: relative;
+	top: 2px;
+	left: 400px;
+}
+
+
+section#contseleccion{
+
+	background: url("../img/fondounad.png");
+	background-repeat: no-repeat;
+	background-size: 1300px 920px;
+	margin: auto;
+	max-width: 990px;
+	max-height: 80000px;
+	position: relative;
+	
+	border-radius: 0.2em;
+	
+	
+}
+
+section#principalsele{
+	font-family: "franklin_gothic_fsbook";
+	font-size: 0.58em;
+	max-width: 500px;
+	
+	border-radius: 0.2em;	
+	min-height: 900px;
+	min-width: 570px;
+	
+	position: relative;
+	top: 2px;
+	left: 400px;
+}
+
+
+section#contenedor{
+
+	background: url("../img/fondounad.png");
+	background-repeat: no-repeat;
+	background-size: 1200px 800px;
+	margin: auto;
+	max-width: 990px;
+	max-height: 800px;
+	position: relative;
+	
+	border-radius: 0.2em;
+	
+	
+}
+
+section#principal{
+	font-family: "franklin_gothic_fsbook";
+	font-size: 0.58em;
+	max-width: 500px;
+	
+	border-radius: 0.2em;	
+	min-height: 780px;
+	min-width: 570px;
+	
+	position: relative;
+	top: 2px;
+	left: 400px;
+}
+
+
+section#conteactividades{
+	
+	background-color: #043958;
+	margin: auto;
+	max-width: 990px;
+	max-height: 20000px;
+	position: relative;
+	
+	border-radius: 0.2em;
+	
+	
+}
+
+section#principalactivi{
+	font-family: "franklin_gothic_fsbook";
+	font-size: 0.58em;
+	
+	margin: 0.2em;
+	border-radius: 0.2em;	
+	min-height: 2080px;
+	min-width: 570px;
+	
+	
+}
+
+
+section#contetuto{
+	
+	background-color: #043958;
+	margin: auto;
+	max-width: 990px;
+	max-height: 2000px;
+	position: relative;
+	
+	border-radius: 0.2em;
+	
+	
+}
+
+section#principaltuto{
+	font-family: "franklin_gothic_fsbook";
+	font-size: 0.58em;
+	
+	margin: 0.2em;
+	border-radius: 0.2em;	
+	min-height: 800px;
+	min-width: 570px;
+	
+	
+}
+
+
+.refetuto{
+	font-family: "franklin_gothic_fsbook";
+	font-size: 0.55em;
+}
+
+
+
+
+ul, ol{
+	list-style: none;
+}
+
+.lista li a{
+	background-color: #0B0B3B;
+	color: #FFFFFF;
+	text-decoration: none;
+	
+	font-size: 0.8em;
+
+	margin: 0.1em;
+	padding: 0.2em 0.3em;
+	
+	border-radius: 0.2em;
+
+	position: relative;
+	left: 0.5em;
+	
+}
+
+.lista li a:hover{
+	background-color:  #F47920;
+
+}
+
+.lista > li  {
+	
+	float: left;
+
+
+}
+
+.lista li ul {
+	display: none;
+	position: absolute;
+	min-width: 140px;
+	text-align:left;
+
+	
+}
+.lista li:hover > ul{
+	
+	display: block;
+}
+
+

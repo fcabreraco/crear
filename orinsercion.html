@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html  lang="es">
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>Ordenamiento Seleccion</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/estiloslecturas.css">
+
+</head>
+
+<body>
+
+	<h1>TECNOLOGIA DESARROLLO DE SOFTWARE</h1>
+	<h2>LOGICA DE PROGRAMACION</h2>
+	
+	<header>
+
+		<div id="menu">
+		<ul class="lista">
+			<li><a href="">Inicio</a></li>
+			<li><a href="introduccion.html">Introduccion</a></li>
+			<li><a>Metodos Ordenamiento datos</a>
+				<ul>
+					<li><a href="orseleccion.html">M. O. Seleccion</a></li>
+					<li><a href="orinsercion.html">M. O. Insercion</a></li>
+					<li><a href="ormezcla.html">M. O. Mezcla  </a></li>
+				</ul>
+			</li>
+			<li><a href="">Actividades</a></li>
+			<li><a href="">Tutoriales</a></li>
+			<li><a href="">Contactos</a></li>
+		</ul>
+		</div>
+
+	</header>
+
+	<nav>
+		
+		<h3>Metodo de ordenamiento Insercion</h3>
+
+
+	</nav>
+
+	
+
+	<section id="continsercion">
+		<section id=principalinser>
+
+	
+		<div><p>Es un método de ordenamiento de datos, que se ubica dentro de los algoritmos de orden simple, sin embargo no es muy eficiente, en cuanto al uso de recursos de máquina.</p></div>
+
+		<div><p>El funcionamiento general del algoritmo se basa en insertar un elemento o dato del arreglo a su izquierda, estando esta ya ordenada.</p></div>
+
+		<div><p>La primera iteración toma el segundo dato del arreglo y si este es menor que el primer dato se intercambian. Durante la segunda iteración, el sistema analiza el tercer elemento y lo inserta en la posición adecuada, respecto a los primeros dos datos, dando como resultado los tres datos ordenados. En la n iteración, los primeros n datos en el arreglo inicial terminan ordenados.</p></div>
+
+		<br>
+		<div><p>Ejemplo</p></div>
+	
+		<center><div><p>24&nbsp;&nbsp;&nbsp;36&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;22&nbsp;&nbsp;&nbsp;67&nbsp;&nbsp;&nbsp;61&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;83&nbsp;&nbsp;&nbsp;29&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;53</p></div></center>
+
+		<br>
+		<div><p>En este caso, un software que efectué  el ordenamiento por inserción, primero buscara los dos datos iniciales del arreglo (24 y 36). Como estos dos elementos ya se encuentran ordenados, el programa continua, pero si no estuvieran en su respectivo orden, el sistema los intercambiaría.</p></div>
+
+		<br>
+		<div><p>En la iteración que sigue, el programa estudia el tercer valor (2). Como el valor es menor que 36, el programa crea un variable temporal y lo aloja allí, mientras que el 36 lo mueve una posición a la derecha; luego el programa vuelve y estudia el dato que queda y concluye que 2 es menor que 24, entonces, mueve una posición a la derecha al número 24; y como el programa llega al inicio del arreglo, saca de la variable temporal el número 2 y lo deja en la primera posición o la posición cero (recordemos que en programación la posición cero es real o se tiene en cuenta, por decirlo así). El arreglo quedaría así:</p></div>
+
+		<br>
+		<center><div><p>2&nbsp;&nbsp;&nbsp;24&nbsp;&nbsp;&nbsp;36&nbsp;&nbsp;&nbsp;22&nbsp;&nbsp;&nbsp;67&nbsp;&nbsp;&nbsp;61&nbsp;&nbsp;&nbsp;83&nbsp;&nbsp;&nbsp;29&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;53</p></div></center>
+
+		<br>
+		<div><p>Continuando con las iteraciones, ahora el programa aloja el 22 en una variable temporal, después coteja el 22 con el 36 y mueve al 36 una posición a la derecha, porque este es mayor que 22. Luego coteja el 22 con el 24 y como 24 es mayor que 22, mueve el 24 una posición a la derecha. Finalmente compara el 22 con el 2 y como 22 es mayor que 2, aloja el 22 en la posición 1. El arreglo queda de la siguiente forma:</p></div>
+
+		<br>
+		<center><div><p>2&nbsp;&nbsp;&nbsp;22&nbsp;&nbsp;&nbsp;24&nbsp;&nbsp;&nbsp;36&nbsp;&nbsp;&nbsp;67&nbsp;&nbsp;&nbsp;61&nbsp;&nbsp;&nbsp;83&nbsp;&nbsp;&nbsp;29&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;53</p></div></center>
+
+
+		<br>
+		<div><p>Y así sucesivamente, este algoritmo en la n iteración, los primeros n valores del arreglo inicial terminan ordenados.</p></div>
+	
+		
+		<br>
+		<div><p><B>ANALISIS DE EFICIENCIA</B></p></div>
+
+		<br>
+		<div><p>Mediante comparaciones, el algoritmo realiza la siguiente forma matemática</p></div>
+
+		<center><div><p><img src="img/imsercionefici1.png" width="100" alt=""></p></div></center>
+
+		
+		<div><p>En los intercambios o movimientos</p></div>
+		<center><div><p><img src="img/imsercionefici2.png" width="100" alt=""></p></div></center>
+
+
+		</section>	
+
+
+	</section>
+
+	<footer>
+
+		<section class="insta">
+			
+		</section>	
+
+		<section class="twiter">
+			
+		</section>	
+
+		<section class="facebook">
+		
+		</section>	
+
+		<section class="pie">
+			
+		<div><p>UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA</p></div>
+		<div><p>Diseño de Paginas Web</p></div>
+		<div><p>Grupo  301122_42</p></div>
+		<div><p>2018</p></div>
+		<div><p>Todos los derechos reservados</p></div>
+
+
+		</section>		
+
+		<section class="ima">
+			
+		
+
+
+		</section>	
+		
+
+		<br>
+		<div class="posi"></div>
+
+		
+	</footer>
+
+
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/modernizr-custom.js"></script>
+<script src="prefixfree.js"></script>
+</body>
+
+</html>

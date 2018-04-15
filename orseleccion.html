@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html  lang="es">
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>Ordenamiento Seleccion</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/estiloslecturas.css">
+
+</head>
+
+<body>
+
+	<h1>TECNOLOGIA DESARROLLO DE SOFTWARE</h1>
+	<h2>LOGICA DE PROGRAMACION</h2>
+	
+	<header>
+
+		<div id="menu">
+		<ul class="lista">
+			<li><a href="">Inicio</a></li>
+			<li><a href="introduccion.html">Introduccion</a></li>
+			<li><a>Metodos Ordenamiento datos</a>
+				<ul>
+					<li><a href="orseleccion.html">M. O. Seleccion</a></li>
+					<li><a href="orinsercion.html">M. O. Insercion</a></li>
+					<li><a href="ormezcla.html">M. O. Mezcla  </a></li>
+				</ul>
+			</li>
+			<li><a href="">Actividades</a></li>
+			<li><a href="">Tutoriales</a></li>
+			<li><a href="">Contactos</a></li>
+		</ul>
+		</div>
+
+	</header>
+
+	<nav>
+		
+		<h3>Metodo de ordenamiento Seleccion</h3>
+
+
+	</nav>
+
+	
+
+	<section id="contseleccion">
+		<section id=principalsele>
+
+
+			
+		<div><p>La forma como se desarrolla el algoritmo, es seleccionando el dato más pequeño y se cambia con el primer dato. La siguiente iteración selecciona el segundo dato más pequeño (de los restantes datos) y este es intercambiado con el dato de la segunda posición; y así sucesivamente hasta que llegue al final, cuando el segundo dato más grande se selecciona y es intercambiado con el índice del segundo al último. Esto deja el dato más grande en el último índice. Luego de la n interacción, los n datos  más pequeños del arreglo, terminaran ordenándose de forma ascendente, en los primeros n datos del arreglo.</p></div>
+
+		<br>
+		<div><p>Ejemplo</p></div>
+		<center><div><p>24&nbsp;&nbsp;&nbsp;36&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;22&nbsp;&nbsp;&nbsp;67&nbsp;&nbsp;&nbsp;61&nbsp;&nbsp;&nbsp;83&nbsp;&nbsp;&nbsp;29&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;53</p></div></center>
+
+		<br>
+		<div><p>En este caso, un software que efectué  el ordenamiento por selección, primero buscara el dato más pequeño (2) de este ejemplo, que se encuentra en la posición o índice 2. Lo que hace el programa es que intercambia el número 2 con el 24, lo que resulta:</p></div>
+
+		<br>
+		<center><div><p>2&nbsp;&nbsp;&nbsp;36&nbsp;&nbsp;&nbsp;24&nbsp;&nbsp;&nbsp;22&nbsp;&nbsp;&nbsp;67&nbsp;&nbsp;&nbsp;61&nbsp;&nbsp;&nbsp;   83&nbsp;&nbsp;&nbsp;29&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;53</p></div></center>
+
+
+		<br>
+		<div><p>Ya en la tercera iteración, el programa sigue buscando al siguiente dato más pequeño (22), y lo intercambia con el 24.</p></div>
+
+		<br>
+		<center><div><p>2&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;22&nbsp;&nbsp;&nbsp;24&nbsp;&nbsp;&nbsp;67&nbsp;&nbsp;&nbsp;61&nbsp;&nbsp;&nbsp;83&nbsp;&nbsp;&nbsp;29&nbsp;&nbsp;&nbsp;36&nbsp;&nbsp;&nbsp;53</p></div></center>
+
+		<br>
+		<div><p>El algoritmo sigue hasta que los datos en el arreglo estén todos ordenados.</p></div>
+
+		<br>
+		<center><div><p>2&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;22&nbsp;&nbsp;&nbsp;24&nbsp;&nbsp;&nbsp;29&nbsp;&nbsp;&nbsp;36&nbsp;&nbsp;&nbsp;53&nbsp;&nbsp;&nbsp;61&nbsp;&nbsp;&nbsp;67&nbsp;&nbsp;&nbsp;83</p></div></center>
+
+
+		<br>
+		<div><p><B>ANALISIS DE EFICIENCIA</B></p></div>
+
+		<br>
+		<div><p>Mediante comparaciones, el algoritmo realiza la siguiente forma matemática</p></div>
+
+		<center><div><p><img src="img/seleccioneficiencia1.png" width="300" alt=""></p></div></center>
+
+		<div><p>En los intercambios o los movimientos</p></div>
+
+		<center><div><p>M&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;n&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;1</p></div></center>
+
+
+		</section>	
+
+
+	</section>
+
+	<footer>
+
+		<section class="insta">
+			
+		</section>	
+
+		<section class="twiter">
+			
+		</section>	
+
+		<section class="facebook">
+		
+		</section>	
+
+		<section class="pie">
+			
+		<div><p>UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA</p></div>
+		<div><p>Diseño de Paginas Web</p></div>
+		<div><p>Grupo  301122_42</p></div>
+		<div><p>2018</p></div>
+		<div><p>Todos los derechos reservados</p></div>
+
+
+		</section>		
+
+		<section class="ima">
+			
+		
+
+
+		</section>	
+		
+
+		<br>
+		<div class="posi"></div>
+
+		
+	</footer>
+
+
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/modernizr-custom.js"></script>
+<script src="prefixfree.js"></script>
+</body>
+
+</html>
