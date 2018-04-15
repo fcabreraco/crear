@@ -28,6 +28,21 @@ body
 		color: #FFFFFF;
 		font-size: 2em;
 	}
+
+h6{
+	font-family: "franklin_gothic_fsdemi";
+	color:  #F0B429;
+	margin: 0.25em auto;
+	text-align: 100px;
+	position: relative;
+	max-width: 900px;
+	
+}
+
+	
+	
+
+
 h1	{
 	font-family: "franklin_gothic_fsdemi";
 	color:  #F0B429;
@@ -40,8 +55,8 @@ h1	{
 img{
 	max-width: 100%;
     height: auto!important;
-	width: 75px;
-    height: 75px;
+	width: 100px;
+    height: 100px;
     display: block;
     margin: 0px 10px 10px;
     float: left;
@@ -56,6 +71,88 @@ header,nav,footer{
 	text-align: center;
 
 }
+
+nav{
+	/*Bordes redondeados*/
+	-webkit-border-radius:10px;/*Para chrome y Safari*/
+	-moz-border-radius:10px;/*Para Firefox*/
+	-o-border-radius:10px;/*Para Opera*/
+	border-radius:10px;/*El estandar por defecto*/
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#CCC));/*Para chrome y Safari*/
+	/*Degradados*/
+	background-image: -moz-linear-gradient(top center, #FFF, #CCC);/*Para Firefox*/
+	background-image: -o-linear-gradient(top, #FFF, #CCC);/*Para Opera*/
+	background-image: linear-gradient(top, #FFF, #CCC);/*El estandar por defecto*/
+	overflow:hidden;
+	padding:10px;
+	width:950px;
+}
+nav ul{
+	list-style:none;
+	margin:0 10px 0 10px;
+	padding:0;
+}
+nav ul li{
+	/*Bordes redondeados*/
+	-webkit-border-radius:5px;/*Chrome y Safari*/
+	-moz-border-radius:5px;/*Firefox*/
+	-o-border-radius:5px;/*Opera*/
+	border-radius:5px;/*Estandar por defecto*/
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	margin-right:10px;
+	text-align:center;
+	/*Sombras para texto, los mismos parametros que box-shadow*/
+	text-shadow: 0px 1px 0px #FFF;
+}
+nav ul li:hover{
+	/*Degradado de fondo*/
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to( #E3E3E3));/*Chrome y Safari*/
+	background-image: -moz-linear-gradient(top center, #FFF, #E3E3E3);/*Firefox*/
+	background-image: -o-linear-gradient(top, #FFF, #E3E3E3);/*Opera*/
+	background-image: linear-gradient(top, #FFF, #E3E3E3);/*Estandar por defecto*/
+	/*Sombras para bloques o cajas*/
+	-webkit-box-shadow:  1px -1px 0px #999;/*Chrome y Safari*/
+	-moz-box-shadow:  1px -1px 0px #999;/*Firefox*/
+	-o-box-shadow:  1px -1px 0px #999;/*Opera*/
+	box-shadow:  1px -1px 0px #999;/*Estandar por defecto*/
+	border:1px solid #E3E3E3;
+}
+nav ul li a{
+	color:#999;
+	display:block;
+	padding:10px;
+	text-decoration:none;
+	/*Transiciones: Tiempo, Efecto y Propiedades aplicadas*/
+	-webkit-transition: 0.4s linear all;/*Chrome y Safari*/
+  	-moz-transition: 0.4s linear all;/*Firefox*/
+  	-o-transition: 0.4s linear all;/*Opera*/
+  	transition: 0.4s linear all;/*Estandar por defecto*/
+}
+nav ul li a:hover {
+	color:#000;
+}
+
+
+
+
+
+
+
+
+#navegacion{
+	transform: translate3d(0,0,1px);
+    margin-bottom: 20px;
+    height: 45px;
+    width: 100%;
+    z-index: 101;
+}
+figcaption{
+	color: black; 
+	  
+}
 h2,h3{
 	font-family: "franklin_gothic_fsdemi";
 	color: #F0B429;
@@ -64,6 +161,7 @@ h2,h3{
 	text-shadow: 2px 2px 5px rgba(255,255,255,0.5);
 	}
  	.primero{
+ 	background: url("../img/fondounad.jpg");
 	margin: 0.5em auto;
 	max-width: 960px;
 	padding: 0;
