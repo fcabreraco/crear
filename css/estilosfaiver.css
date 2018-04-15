@@ -1,6 +1,9 @@
 *{
 	padding: 0;
 	margin: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
 
 }
 @font-face {
@@ -74,6 +77,8 @@ header,nav,footer{
 footer{
 	background: black;
 }
+
+/*botones de red sociales*/
 .social {
 	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
 	left: 0; /* Establecemos la barra en la izquierda */
@@ -225,6 +230,11 @@ h2,h3{
 	text-align: justify;	
 	width: 65%;
 }
+ 
+aside{
+	vertical-align: top;
+	width: 30%;
+}
 
 article{
 	background: #011E30;
@@ -232,8 +242,4 @@ article{
 	min-height: 140px;
 	padding: 0.1em;
 }
-aside{
-	width: 30%;
-	
 
-}
