@@ -65,7 +65,7 @@ img{
     float: left;
 	}
 
-header,nav,footer{
+header,nav{
 	background: #FFFFFF;
 	border-radius: 0.8em;
 	margin: 0.5em auto;
@@ -74,9 +74,7 @@ header,nav,footer{
 	text-align: center;
 
 }
-footer{
-	background: black;
-}
+
 
 /*botones de red sociales*/
 .social {
