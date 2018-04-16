@@ -105,12 +105,24 @@ footer {
 
 .pie{
 	float: left;
-	width: 650px;
+	width: 470px;
 	height: 100px;
 	
 	font-family: "franklin_gothic_fsbook";
 	font-size: 0.4em;
 }
+
+.contador{
+
+	width: 200px;
+	height: 100px;
+	float: left;
+	font-family: "franklin_gothic_fsbook";
+	font-size: 0.52em;
+	background-size: 100px 100px;
+	border-radius: 2%;
+}
+
 
 .ima{
 
