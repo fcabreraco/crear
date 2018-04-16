@@ -50,9 +50,8 @@ h2 {
 }
 section{
 
-	background: url("../img/fondounad.jpg");
-	background-repeat: no-repeat;
-	background-size: 1300px 800px;
+	
+	
 	margin: auto;
 	max-width: 1000px;
 	max-height: 800px;
@@ -73,7 +72,7 @@ nav{
 	text-align: center;
 }
 div{
-	background: url("../img/fondounad.jpg");
+	
 	background-repeat: no-repeat;
 	background-size: 1800px 4000px;
 	margin: auto;
