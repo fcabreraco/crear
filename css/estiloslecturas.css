@@ -151,6 +151,9 @@ header{
 }
 
 
+
+}
+
 section#contmezcla{
 
 	background: url("../img/fondounad.png");
@@ -291,7 +294,7 @@ section#principalindex{
 	
 	margin: 0.2em;
 	border-radius: 0.2em;	
-	min-height: 2080px;
+	min-height: 780px;
 	min-width: 570px;
 }
 
@@ -315,7 +318,7 @@ section#principalactivi{
 	
 	margin: 0.2em;
 	border-radius: 0.2em;	
-	min-height: 2080px;
+	min-height: 700px;
 	min-width: 570px;
 	
 	
