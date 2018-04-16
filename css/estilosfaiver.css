@@ -42,15 +42,25 @@ h1	{
 
 }
 
-img{
+img#logo-index{
 	max-width: 100%;
     height: auto!important;
 	width: 200px;
     height: 200px;
     display: block;
-    
+    margin: 0px 10px 10px;
     position: relative;
     left: 12em;
+	}
+img{
+	max-width: 100%;
+    height: auto!important;
+	width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0px 10px 10px;
+    
+    
 	}
 
 /*header,nav{
