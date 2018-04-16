@@ -260,6 +260,30 @@ section#principal{
 }
 
 
+section#conteindex{
+
+	background-color: #043958;
+	margin: auto;
+	max-width: 990px;
+	max-height: 20000px;
+	position: relative;
+	
+	border-radius: 0.2em;
+	
+	
+}
+
+section#principalindex{
+	font-family: "franklin_gothic_fsbook";
+	font-size: 0.58em;
+	
+	margin: 0.2em;
+	border-radius: 0.2em;	
+	min-height: 2080px;
+	min-width: 570px;
+}
+
+
 section#conteactividades{
 	
 	background-color: #043958;

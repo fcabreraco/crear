@@ -189,11 +189,11 @@ figcaption{
 	color: black; 
 	  
 }
-h2,h3{
+.objetivo, .especifico{
 	font-family: "franklin_gothic_fsdemi";
 	color: #F0B429;
 	margin: 0.25em auto;
-	text-align: center;
+	
 	text-shadow: 2px 2px 5px rgba(255,255,255,0.5);
 	}
  	.primero{
@@ -202,13 +202,13 @@ h2,h3{
 	max-width: 960px;
 	padding: 0;
 	background: #FFFFFF;
-	text-align: center;
+	
 
 	background-repeat: no-repeat;
 	
 	margin: auto;
 	
-	position: relative;
+	
 	
 }
  	.segundo,aside{
@@ -223,7 +223,7 @@ h2,h3{
 	max-width: 900px;
 	min-height: 200px
 	vertical-align: top;
-	text-align: justify;	
+		
 	width: 65%;
 }
  
